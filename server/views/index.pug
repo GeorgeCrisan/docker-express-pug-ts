@@ -1,0 +1,11 @@
+extends base
+
+block content
+    h1 Rdp node thing
+    #container.col
+      if pugEnabled
+        p It works!
+      else
+        p It works, have you set pugEnabled at render stage?
+      p.
+        Love performance
